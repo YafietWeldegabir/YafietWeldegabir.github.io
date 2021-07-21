@@ -13,7 +13,8 @@ body{
 }
 #firstTitle{
     text-align: center;
-    font-size: 22pt, bold;
+    font-size: 22pt;
+    font-weight: bold;
 
 }
 .content{
