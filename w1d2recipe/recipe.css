@@ -6,14 +6,14 @@ body{
  color: #A4A400;
  text-align: left;
  font-family: Sans Unicode, Helvetica, Arial;
- size: 18pt;
+ font-size: 18pt;
  text-decoration: underline;
  padding: 15px;
 
 }
 #firstTitle{
     text-align: center;
-    size: 22pt, bold;
+    font-size: 22pt, bold;
 
 }
 .content{
@@ -23,6 +23,9 @@ body{
 .comment{
     background-color: #FFFFA8;
     font-style: italic;
+}
+#strike{
+    text-decoration: line-through;
 }
 
 a{
