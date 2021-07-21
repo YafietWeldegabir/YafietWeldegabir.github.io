@@ -7,13 +7,24 @@ body {
     color: #884daf;
     font-weight: bold;
 }
-
+.subtitle{
+    color: #884daf;
+    font-weight: bold;
+}
 .content{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     font-weight: bold;
     font-size: 20px;
     color: rgb(24, 88, 92);
+}
+p::first-letter{
+    float: left;
+    line-height: 35px;
+    font-size: 55px;
+    font-family: Montserrat;
+    color: #7D3C98;
+    border: solid #D5C5EC;
 }
 .progress {
     background-color: rgb(236, 83, 83);
@@ -33,5 +44,13 @@ body {
   }
 
   a:hover{
-      text-decoration: underline;
-  }
+    text-decoration: underline;
+}
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
+}
