@@ -32,3 +32,6 @@ body{
 a{
     color: #A4A400;
 }
+#copyright{
+    font-family: monospace;
+}
