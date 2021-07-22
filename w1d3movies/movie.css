@@ -93,6 +93,12 @@ border-top-right-radius: 15px;
     right:0;
     bottom:0;}
 
-/* div > dl > dd{
-    padding: 8pt;
-} */
+#footer{
+    background-color: #A2B964;
+    position:relative;
+    margin-bottom: 0%;
+    padding: 10pt;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+
+}
