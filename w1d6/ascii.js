@@ -5,11 +5,11 @@ window.onload = function () {
     turboSpeed = document.getElementById("turbo");
     startButton = document.getElementById("start");
     stopButton = document.getElementById("stop");
-    
+
     startButton.onclick = start;
     stopButton.onclick = stop;
     animationSelected.onchange = getFrames;
-    fontSize.onchange = setSize;
+    fontSize.onchange = reSize;
     turboSpeed.onchange = turbo;
 
 }
@@ -45,7 +45,7 @@ function getFrames() {
 
 }
 
-function setSize() {
+function reSize() {
     var fontsize = fontSize.options[fontSize.selectedIndex].value;
     textArea.style.fontSize = fontsize;
 }
