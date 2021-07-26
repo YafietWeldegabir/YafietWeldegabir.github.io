@@ -19,13 +19,13 @@ var textArea, animationSelected, fontSize, timer, startButton, stopButton, speed
 function start() {
     var frames = textArea.value.split("=====\n");
     var i = 0, l = frames.length;
-    (function iterator() {
+    (function nextFrame() {
         textArea.value = frames[i];
 
         if (++i >= l) {
             i = 0;
         }
-        timer = setTimeout(iterator, speed);
+        timer = setTimeout(nextFrame, speed);
     })();
     stopButton.disabled = false;
     startButton.disabled = true;
