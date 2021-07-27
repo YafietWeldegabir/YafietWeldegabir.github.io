@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>
+        Sign In
+    </title>
+
+<body>
+    <div class="mainDiv">
+        <form method="POST">
+
+            <div class="email">
+                <label>Email Address</label>
+                <input name="email" id="eml" placeholder="Enter email" type="email" title="Enter email">
+                <p id='emlNote'> We'll never share your email with anyone else.</p>
+            </div>
+
+            <div class="password">
+                <label id="passwordLbl">Password</label>
+                <input name="password" id="psswd" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+                    type="password" title="Enter Password">
+            </div>
+
+            <div class="url">
+                <label>Website URL </label> <br>
+                <input id="url" type="text" placeholder="Enter url" name="url" pattern="https?://.+"
+                    title="'http://' OR 'https://' " required>
+            </div>
+
+            <div class="checkBox">
+                <input type="checkbox" id="checkbox">
+                <label>Check me out</label>
+            </div>
+
+            <input type="submit" id="sbmt" name="Submit">
+        </form>
+    </div>
+    <div id="validate">
+        <a href="https://validator.w3.org/nu/?doc=https://yafietweldegabir.github.io/w2d1/REGEX/login.html">
+            <img src="images/w3c-html.png" alt="html validator">
+
+        </a>
+        <a
+            href="http://jigsaw.w3.org/css-validator/validator?uri=https://yafietweldegabir.github.io/w2d1/REGEX/style.css">
+            <img src="images/w3c-css.png" alt="Valid CSS!"></a><br>
+</body>
+</head>
+
+</html>

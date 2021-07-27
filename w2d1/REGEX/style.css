@@ -1,0 +1,61 @@
+
+ .mainDiv{
+    width: 80%;
+    align-content: center;
+    text-align: left;
+    margin: 40px;
+    font-family: sans-serif;
+}
+.email, .url{
+
+    margin: 40px;
+    font-size: 22px;
+    padding: 10px;
+}
+.password{
+    margin: 40px;
+     font-size: 25px;
+         padding: 10px;
+}
+.checkBox{
+      margin: 40px;
+      font-size: 25px;
+      padding-left: 10px;
+}
+button{
+    width: 130px;
+    height: 40pt;
+    margin-top: 10px;
+    background-color: #338AFF;
+    font-size: 35px;
+       border-radius: 10px;
+}
+#eml, #url{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#psswd{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 25px;
+      border-radius: 10px;
+    padding: 10px;
+}
+
+#emlNote{
+     font-size: 20px;
+     color: #989898;
+     
+}
+input[type=submit] {
+    background:rgb(16, 108, 255); 
+    padding: 10px 20px;
+    color: white;
+    border-radius: 12px;
+   margin:10px
+}
