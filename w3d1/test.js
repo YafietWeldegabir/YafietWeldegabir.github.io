@@ -171,14 +171,14 @@
             });
         });
 
-        describe("endOfMonth", function () {
-            it("print endOfMonth report on each account in the Bank", function () {
-                bank.addCheckingAccount(100, 2003);
-                bank.addAccount(1003);
-                bank.addSavingsAccount(0.04, 3003);
-                assert.equal(bank.endOfMonth(), "Deposit amount has to be greater than zerodeposit");
-            });
-        });
+        // describe("endOfMonth", function () {
+        //     it("print endOfMonth report on each account in the Bank", function () {
+        //         bank.addCheckingAccount(100, 2003);
+        //         bank.addAccount(1003);
+        //         bank.addSavingsAccount(0.04, 3003);
+        //         assert.equal(bank.endOfMonth(), "Deposit amount has to be greater than zerodeposit");
+        //     });
+        // });
     });
     });
 
