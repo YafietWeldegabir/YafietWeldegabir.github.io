@@ -1,13 +1,13 @@
-$(function() {
+$(function () {
     let circuleOpacityTimer;
 
-    $('.start').on('click', function() {
+    $('.start').on('click', function () {
         let circulesNumber = parseInt($('#set-circules-count').val());
-        if(circulesNumber <= 0) {
+        if (circulesNumber <= 0) {
             return;
         }
 
-        while(circulesNumber-- > 0) {
+        while (circulesNumber-- > 0) {
             createCircule();
         }
 
@@ -17,11 +17,11 @@ $(function() {
         });
     });
 
-    $(document).on('mouseenter', '.circule', function() {
+    $(document).on('mouseenter', '.circule', function () {
         circuleOpacityTimer = setInterval(opactiy, 400, $(this));
     });
 
-    $(document).on('mouseleave', '.circule', function() {
+    $(document).on('mouseleave', '.circule', function () {
         $(this).css("opacity", '100%');
         clearInterval(circuleOpacityTimer);
     });
@@ -50,13 +50,11 @@ $(function() {
     function opactiy(element) {
         element.css("opacity", (index, value) => value * 0.8);
     }
-
-    // Some guidunce from the internet, refereance: https://stackoverflow.com/questions/1484506/random-color-generator
     function getRandomColor() {
         var letters = '0123456789ABCDEF';
         var color = '#';
         for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+            color += letters[Math.floor(Math.random() * 16)];
         }
         return color;
     }
