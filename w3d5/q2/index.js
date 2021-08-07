@@ -4,7 +4,13 @@ const app = express();
 app.use(express.urlencoded());
 
 app.use('/', (req, res,next) => {
- res.send("<form action=result method=post><label>Name: <input name=name type=text></label><label>Age<input name=age type=number></label><button type=submit>Submit Query</button></form>");
+ res.send(`<form method="POST" action="/result">
+ <label>Name</label>
+ <input type="text" name="name">
+ <label>Age</label>
+ <input type="number" name="age">
+ <input type="submit" value="Submit Query">
+</form>`);
 });
 
 
