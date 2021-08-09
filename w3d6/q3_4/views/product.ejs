@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang='en'>
- <head>
- <meta charset="utf-8">
- <title>Product <%= id %></title>
- </head>
+<html lang="en">
 
- <body>
-     <%- include("product-details.ejs") %>
-     <form action="add-to-cart" method="POST">
-         <input type="hidden" value="<%= id %>" name="id"></hidden>
-        <button type="submit">Add to Cart</button>
-    </form>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        W3D6 Q3_4
+    </title>
+</head>
+
+<body>
+
+        <ul>
+            <li>Name: <%= name %>
+            </li>
+            <li>Price: <%= price %>
+            </li>
+            <li>Description: <%= description %>
+            </li>
+            <li>Id: <%= id %>
+            </li>
+        </ul>
+
+        <form action="/addToCart" method="POST">
+            <input type="hidden" value="<%= id %>" name="id"></hidden>
+            <button type="submit">Add to Cart</button>
+        </form>
+
+        
+</body>
+
 </html>
