@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.urlencoded());
 
-app.use('/', (req, res,next) => {
+app.get('/', (req, res,next) => {
  res.send(`<form method="POST" action="/result">
  <label>Name</label>
  <input type="text" name="name">
@@ -14,7 +14,7 @@ app.use('/', (req, res,next) => {
 });
 
 
-app.use('/result', (req, res, next) => {
+app.post('/result', (req, res, next) => {
     let name=req.body.name;
     let age=req.body.age;
     res.send(`Welcome ${name} age: ${age}`)
