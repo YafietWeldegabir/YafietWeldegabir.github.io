@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        W3D6 Q3_4
+    </title>
+</head>
+
+<body>
+    <ul>
+        <% for (let key in products) { %>
+            <li>Name: <%= products[key].name %>,
+                    Price: <%= products[key].price %>,
+                        Quantity: <%= products[key].quantity %>
+                            <% } %>
+            </li>
+    </ul>
+
+</body>
+
+</html>
