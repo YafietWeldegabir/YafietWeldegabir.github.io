@@ -1,8 +1,6 @@
-# Yafiet Araya — Full Stack Java Developer Portfolio
+# Yafiet Araya — Portfolio
 
-Full Stack Java Developer with 6+ years of experience building high-performing backend and full-stack applications. This React + Vite portfolio showcases my expertise in Java, Spring Boot, cloud-native systems (GCP & AWS), and modern web technologies, with a light/dark theme toggle and GitHub Pages deployment.
-
-**Skills:** Java 17+, Spring Boot, React, JavaScript, Python, PostgreSQL, MongoDB, AWS, GCP, Docker, Kubernetes, Jenkins, Kafka, OAuth, JWT
+A React + Vite personal site with a light/dark theme toggle, deployable to GitHub Pages.
 
 ## Local development
 
@@ -15,27 +13,25 @@ Opens at `http://localhost:5173`.
 
 ## Editing content
 
-All portfolio content lives in `src/data.js` — edit that file to customize:
-- **Profile info:** name, role, focus, email, phone, social links (LinkedIn, GitHub, Instagram)
-- **Experience:** roles, companies, descriptions, and dates
-- **Skills:** organized by category (languages, frameworks & web, cloud & devops, databases)
-- **Education:** degrees, schools, and dates
-- **Certifications:** credentials and completion dates
+All resume content lives in `src/data.js` — edit that file to update your
+summary, experience, skills, education, or certifications without touching
+any component code.
 
-To update your CV, replace `public/cv.pdf` with your own file (keep the same
+To swap the CV, replace `public/cv.pdf` with your own file (keep the same
 filename, or update the `href="cv.pdf"` in `src/components/Hero.jsx`).
 
 ## Deploying to GitHub Pages
 
-**1. Set the base path** in `vite.config.js` to match your repo name:
+**1. Set the base path.** In `vite.config.js`, `base` must match your repo name:
 
 ```js
 base: '/your-repo-name/'
 ```
 
-For a user/org page (`https://<username>.github.io/`) or custom domain, set `base: '/'` instead.
+If you're deploying to a user/org page (`https://<username>.github.io/`) or a
+custom domain instead of a project page, set `base: '/'`.
 
-**2. Push to GitHub**, then choose one of:
+**2. Push this project to a GitHub repo**, then choose one of:
 
 ### Option A — GitHub Actions (recommended, auto-deploys on every push)
 This repo already includes `.github/workflows/deploy.yml`. After pushing to
@@ -54,10 +50,9 @@ Pages**, set the source to the `gh-pages` branch.
 
 Your site will be live at `https://<username>.github.io/<repo-name>/`.
 
-## Connect & Contact
-
-Your social links (email, LinkedIn, GitHub, Instagram) and phone number are displayed in the footer. Update these in `src/data.js` under the `profile` object.
-
 ## Adding visitor analytics
 
-Optional — to track visitors, add Google Analytics, GoatCounter, or similar. The tracking snippet goes in `index.html` (script tag) or as a component in `src/App.jsx`.
+Not wired up yet — see the conversation for options (Google Analytics,
+GoatCounter, or a simple counter badge). Once you pick one, the tracking
+snippet goes in `index.html` (for a script tag) or as a small component
+mounted in `src/App.jsx`.

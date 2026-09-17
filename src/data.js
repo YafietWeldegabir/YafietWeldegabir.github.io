@@ -30,6 +30,12 @@ export const experience = [
       to 99% with JUnit, Mockito, and Spring Testing.`,
   },
   {
+    period: "March 2026 – Present (part time)",
+    title: "Software Engineer / AI Data Engineer",
+    company: "Snorkel AI",
+    description: `AI Data Development & Model Programmatic Labeling: Leveraged Snorkel's programmatic data labeling and weakly supervised learning platform to build high-quality training datasets, optimizing LLM fine-tuning pipelines and accelerating data iteration cycles. Backend Integration & Microservices: Engineered scalable Java/Spring Boot backend microservices and RESTful APIs to integrate machine learning and programmatic labeling workflows into existing enterprise data pipelines. Data Engineering & Performance Optimization: Architected distributed data processing workflows using Python, SQL, and cloud infrastructure (GCP/AWS), improving training data ingestion speeds and dataset accuracy.`,
+  },
+  {
     period: "2020—2021 & 2014—2016",
     title: "Software Engineer",
     company: "LIYA Enterprise · Asmara, Eritrea",
