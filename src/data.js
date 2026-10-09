@@ -9,7 +9,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/yafiet-weldegabir/",
   github: "https://github.com/YafietWeldegabir",
   instagram: "https://www.instagram.com/yafiizi?utm_source=qr",
-  summary: `Experienced Full Stack Java Developer with 6+ years of expertise building
+  summary: `Experienced Full Stack Java Developer with 7+ years of expertise building
     high-performing backend and full-stack applications. Adept at leveraging Java features,
     design patterns, and best practices, with proficiency in frameworks such as Spring Boot
     and React. Proven track record delivering solutions for top-tier financial institutions
