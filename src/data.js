@@ -2,7 +2,7 @@ export const profile = {
   name: "Yafiet Araya",
   role: "Software Engineer",
   focus: "Java, Spring Boot, cloud-native systems",
-  experienceYears: "6+ years",
+  experienceYears: "7+ years",
   location: "Dallas, TX",
   email: "yafietweldegabir@gmail.com",
   phone: "641-819-1508",
